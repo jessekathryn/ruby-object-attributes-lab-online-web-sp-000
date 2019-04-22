@@ -1,4 +1,11 @@
 class Dog
+<<<<<<< HEAD
+=======
+  
+  def initialize(new_name)
+    @name = new_name
+  end
+>>>>>>> bbbf5fe76ce57c70c156310bbeea749eb8522f7c
  
   def name
     @name
@@ -7,6 +14,7 @@ class Dog
   def name=(new_name)
     @name = new_name
   end
+<<<<<<< HEAD
 
   def breed
     @breed
@@ -16,4 +24,7 @@ class Dog
     @breed = new_breed
   end
 
+=======
+ 
+>>>>>>> bbbf5fe76ce57c70c156310bbeea749eb8522f7c
 end
